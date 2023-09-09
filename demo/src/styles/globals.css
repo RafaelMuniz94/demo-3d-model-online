@@ -1,7 +1,33 @@
 .App {
-  width: 100vw;
-  height: 100vh;
+  width: 95vw;
+  height: 80vh;
+  display: s;
+  justify-content: center;
+  align-items: center;
+  display: list-item;
+}
+
+Canvas{
+  width: 80vw;
+  height: 70vh;
+  border:1px solid black;
+
+  }
+.Panel{
+  width: 95vw;
+  height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  
+}
+
+button{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
 }
